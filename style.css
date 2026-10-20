@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+
+.relatorio {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px 30px;
+  border: 1px solid #ccc;
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid #333;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+h2 {
+  background: #4a6fa5;
+  color: white;
+  padding: 6px 10px;
+  font-size: 18px;
+}
+
+.questao {
+  margin-bottom: 20px;
+}
+
+.questao h3 {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 8px;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 5px 12px;
+}
+
+th {
+  background: #dde5f0;
+}
+
+tr:nth-child(even) td {
+  background: #f7f7f7;
+}
+
+footer {
+  text-align: center;
+  color: gray;
+  margin-top: 30px;
+}
